@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+ 
+  float: right;
+
+}
+a:link,a:visited,a:hover,a:active{
+  display: inline-block;  
+  background-color: grey;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  text-decoration:none;
+  border-radius: 4px;
+                  
+} 
+.but{
+background-color: grey;
+  color: white;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 4px;
+} 
+
+.button{
+background-color: #4CAF50;
+  color: white;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 4px;
+} 
+
+.cen{
+text-align: center;}
+
+.cep{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 80px ;
+}
+</style>
+<body class="cep">
+
+
+
+<div >
+  <form >
+  <h1 class="cen">REQUEST DEPARTMENT CHANGE</h1>
+  <br>
+  <br>
+    <label >Roll Number:</label><br>
+    <input type="text" placeholder="EEE01A01" >
+
+    
+    <label>Select Department:</label><br>
+      <select id="Department" value="EEE">
+          <option value="EEE">EEE</option>
+
+          <option value="MECH">MECH</option>
+
+          <option value="CSE">CSE</option>
+
+          <option value="CIVIL">CIVIL</option>
+          
+      </select>
+    
+  <div align="right">
+    <br><br>
+     <a class="but" href="index.html">Go Back</a>
+       <button class="button">Register</button>
+  </div>
+  </form>
+</div>
+
+</body>
+</html>

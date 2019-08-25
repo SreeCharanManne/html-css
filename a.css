@@ -1,0 +1,23 @@
+.index{
+	text-align: center;
+}
+
+.i{
+ border-radius:10px;
+ height:20px;
+ width:400px;
+ background:#009933;
+ padding:20px;
+ margin-bottom:.70rem;
+ display: inline-block;
+ text-decoration: none;
+ text-color: #ffffff;
+ }
+ a:link,a:visited,a:hover,a:active{
+              text-decoration: none;
+              color:#fff;
+              font-size:25px;
+              display: inline-block;
+            }
+
+ 
