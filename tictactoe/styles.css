@@ -1,0 +1,69 @@
+body {
+	background-color: papayawhip;
+}
+h1 {
+	color:#356bbf;
+	font-size: 60px;
+	text-align:center; 
+}
+table{
+	margin:10% auto;
+}
+
+#row1 .c1{
+	width:4em;
+	height:3.5em;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+#row1 .c2{
+	width:4em;
+	height:3.5em;
+	border-bottom: 2px solid black;
+}
+
+#row1 .c3{
+	width:4em;
+	height:3.5em;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+}
+#row2 .c1{
+	width:4em;
+	height:3.5em;
+	border-right: 2px solid black;
+}
+
+#row2 .c2{
+	width:4em;
+	height:3.5em;
+}
+
+#row2 .c3{
+	width:4em;
+	height:3.5em;
+	border-left: 2px solid black;
+}
+#row3 .c1{
+	width:4em;
+	height:3.5em;
+	border-right: 2px solid black;
+	border-top: 2px solid black;
+}
+
+#row3 .c2{
+	width:4em;
+	height:3.5em;
+	border-top: 2px solid black;
+}
+
+#row3 .c3{
+	width:4em;
+	height:3.5em;
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+}
+tr td:hover{
+	background-color:rgb(101, 102, 84);
+}
